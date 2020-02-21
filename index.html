@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>Portfolio</nav>
+        <div class="wrapper">
+            <div class ="work" onclick="run('fit')">
+                <img src="images/fitme.JPG" class="image"></img>
+                <h3>Fitme</h3>
+            </div>
+            <div class ="work" onclick="run('fly')">
+                <img src="images/Fly.JPG" class="image"></img>
+                <h3>Flightz</h3>
+            </div>
+            <div class ="work" onclick="run('bj')">
+                <img src="images/bj.JPG" class="image"></img>
+                <h3>BlackJack</h3>
+            </div>
+            <div class ="work" onclick="run('cry')">
+                <img src="images/crystals.jpg" class="image"></img>
+                <h3>Crystals Collector</h3>
+            </div>
+            <div class ="work" onclick="run('git')">
+                <img src="images/git.JPG" class="image"></img>
+                <h3>GitTastic</h3>
+            </div>
+            <div class ="work" onclick="run('ps')">
+                <img src="images/psychic.JPG" class="image"></img>
+                <h3>Psychic Game</h3>
+            </div>
+            <div class ="work" onclick="run('rps')">
+                <img src="images/rps.JPG" class="image"></img>
+                <h3>Rock Paper Scissors</h3>
+            </div>
+            <div class ="work" onclick="run('tri')">
+                <img src="images/trivia.JPG" class="image"></img>
+                <h3>Trivia</h3>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script>
+        
+        function run(value){
+            if(value === "fit"){
+                window.open("http://serene-mountain-99360.herokuapp.com/");
+            }
+            if(value === "fly"){
+                window.open("https://josephledbetter.github.io/Flightz/");
+            }
+            if(value === "bj"){
+                window.open("https://camilocaroso.github.io/BlackJack/");
+            }
+            if(value === "cry"){
+                window.open("https://camilocaroso.github.io/CrystalsCollector/");
+            }
+            if(value === "git"){
+                window.open("https://camilocaroso.github.io/GitTastic/");
+            }
+            if(value === "ps"){
+                window.open("https://camilocaroso.github.io/Psychic-Game/");
+            }
+            if(value === "rps"){
+                window.open("https://camilocaroso.github.io/RockPaperScissors/");
+            }
+            if(value === "tri"){
+                window.open("https://camilocaroso.github.io/TriviaGame/");
+            }
+        }
+    </script>
+</body>
+</html>
